@@ -12,6 +12,10 @@
 
 ```
 git clone https://github.com/reouno/note.git
-cd note
-./build_run.sh
+cd note/frontend
+yarn # install dependencies
+yarn webpack # build frontend
+cd ../
+stack build # build backend
+stack exec note-exe
 ```
