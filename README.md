@@ -7,6 +7,7 @@
 - npm v6.7.0
 - yarn 1.16.0
 
+Node v7-v11 should work but I haven't tried. node v12 did not work (2019/06/01).
 
 ## Install and Run
 
